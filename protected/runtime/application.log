@@ -1,0 +1,52 @@
+2013/09/04 19:08:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.php".' in /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php(121): CWebApplication->runController('index.php')
+#1 /www/elipsisdigital.com.ar/htdocs/yii/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /www/elipsisdigital.com.ar/htdocs/labs/test/trackstar/index.php(12): CApplication->run()
+#3 {main} REQUEST_URI=/labs/test/trackstar/index.php/index.php
+2013/09/04 19:12:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.php".' in /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php(121): CWebApplication->runController('index.php')
+#1 /www/elipsisdigital.com.ar/htdocs/yii/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /www/elipsisdigital.com.ar/htdocs/labs/test/trackstar/index.php(12): CApplication->run()
+#3 {main} REQUEST_URI=/labs/test/trackstar/index.php/index.php
+2013/09/04 20:35:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.php".' in /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php(121): CWebApplication->runController('index.php')
+#1 /www/elipsisdigital.com.ar/htdocs/yii/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /www/elipsisdigital.com.ar/htdocs/labs/test/trackstar/index.php(12): CApplication->run()
+#3 {main} REQUEST_URI=/labs/test/trackstar/index.php/index.php
+2013/09/04 20:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.php".' in /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php:332
+Stack trace:
+#0 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php(121): CWebApplication->runController('index.php')
+#1 /www/elipsisdigital.com.ar/htdocs/yii/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#2 /www/elipsisdigital.com.ar/htdocs/labs/test/trackstar/index.php(12): CApplication->run()
+#3 {main} REQUEST_URI=/labs/test/trackstar/index.php/index.php
+2013/09/05 10:17:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /www/elipsisdigital.com.ar/htdocs/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/auth/CAccessControlFilter.php(119): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CController.php(1122): CFilter->filter(Object(CFilterChain))
+#3 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CController.php(283): CFilterChain->run()
+#6 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php(328): CController->run('admin')
+#8 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php(121): CWebApplication->runController('issue/admin/pid...')
+#9 /www/elipsisdigital.com.ar/htdocs/yii/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#10 /www/elipsisdigital.com.ar/htdocs/labs/test/trackstar/index.php(12): CApplication->run()
+#11 {main} REQUEST_URI=/labs/test/trackstar/issue/admin/pid/1
+2013/09/05 10:17:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /www/elipsisdigital.com.ar/htdocs/yii/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/auth/CAccessControlFilter.php(119): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CController.php(1122): CFilter->filter(Object(CFilterChain))
+#3 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CController.php(283): CFilterChain->run()
+#6 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php(328): CController->run('admin')
+#8 /www/elipsisdigital.com.ar/htdocs/yii/framework/web/CWebApplication.php(121): CWebApplication->runController('project/admin')
+#9 /www/elipsisdigital.com.ar/htdocs/yii/framework/base/CApplication.php(155): CWebApplication->processRequest()
+#10 /www/elipsisdigital.com.ar/htdocs/labs/test/trackstar/index.php(12): CApplication->run()
+#11 {main} REQUEST_URI=/labs/test/trackstar/project/admin
